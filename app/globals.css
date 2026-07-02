@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  --color-cream: #efece3;
+  --color-sky: #8fabd4;
+  --color-primary: #4a70a9;
+  --color-ink: #000000;
+}
+
+@theme inline {
+  --color-cream: var(--color-cream);
+  --color-sky: var(--color-sky);
+  --color-primary: var(--color-primary);
+  --color-ink: var(--color-ink);
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-playfair);
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
